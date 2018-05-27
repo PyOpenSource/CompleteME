@@ -18,4 +18,4 @@ def fouriers_law(params):
 qpp, k, t1, t2, l = sympy.symbols("qpp k T1 T2 L")
 params = {k: 1.7, t1: 1400, t2: 1150, l: 0.15}
 output = fouriers_law(params)
-print(output)
+#print(output)
